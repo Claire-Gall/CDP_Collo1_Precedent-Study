@@ -4,7 +4,7 @@
 /* Style the entire body of the webpage */
 body {
   font-family: 'Roboto', sans-serif;  /* Set the font to Roboto, with sans-serif as backup */
-  background-color: #6e4141;          /* Set background color to white */
+  background-color: #edeeed;          /* Set background color to white */
   color: #bfbbbb;                        /* Set text color to dark gray (almost black) */
   margin: 0;                          /* Remove default spacing around the body */
   padding: 0;                         /* Remove default internal spacing */
@@ -122,7 +122,7 @@ button:hover {
   margin-top: 20px;                   /* Add 20 pixels of space above this element */
   padding: 16px;                      /* Add 16 pixels of spacing inside the element */
   border: 1px solid #ccc;             /* Add a light gray border around the element */
-  background-color: #f9f9f9;          /* Set background color to very light gray */
+  background-color: #f8d382;          /* Set background color to very light gray */
   border-radius: 4px;                 /* Add slightly rounded corners */
   min-height: 20px;                   /* Set minimum height so the area is visible even when empty */
 }
@@ -143,6 +143,7 @@ button:hover {
 
 .section-toggle:hover {
   background-color: #ddd;
+
 }
 .collapsible-section {
   border: 1px solid #ccc;

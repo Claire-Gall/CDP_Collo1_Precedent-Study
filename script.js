@@ -1,5 +1,3 @@
-// script.js
-
 // Function to show message when the demoButton is clicked
 function showMessage() {
     const message = document.getElementById("message");
@@ -26,12 +24,13 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-// ----- Dropdown Toggle Logic -----
-const toggles = document.querySelectorAll('.section-toggle');
+    // ----- Dropdown Toggle Logic -----
+    const toggles = document.querySelectorAll('.section-toggle');
 
-toggles.forEach(toggle => {
-    toggle.addEventListener('click', function () {
-        const content = this.nextElementSibling;
-        content.classList.toggle('open');
+    toggles.forEach(toggle => {
+        toggle.addEventListener('click', function () {
+            const content = this.nextElementSibling;
+            content.classList.toggle('open');
+        });
     });
-});
+}); 
