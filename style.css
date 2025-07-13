@@ -3,8 +3,8 @@
 
 /* Style the entire body of the webpage */
 body {
-  font-family: 'Roboto', sans-serif;  /* Set the font to Roboto, with sans-serif as backup */
-  background-color: #eeeded;          /* Set background color to white */
+  font-family: 'EB Garamond'/* Set the font Sans-Serif as backup */
+  background-color:#eeeded;          /* Set background color to white */
   color: #bfbbbb;                        /* Set text color to dark gray (almost black) */
   margin: 0;                          /* Remove default spacing around the body */
   padding: 0;                         /* Remove default internal spacing */
@@ -74,7 +74,7 @@ main {
 
 /* Style the advisor information */
 .advisor {
-  font-size: 14px;                    /* Set font size to 14 pixels */
+  font-size: 16px;                    /* Set font size to 14 pixels */
   margin-bottom: 40px;                /* Add 40 pixels of space below this element */
   color: #333;                        /* Set text color to dark gray */
 }
@@ -98,7 +98,7 @@ p {
 
 /* Style for our interactive button */
 button {
-  background-color: #111;             /* Set button background to dark gray */
+  background-color: #514e4e;             /* Set button background to dark gray */
   color: white;                       /* Set button text color to white */
   border: none;                       /* Remove the default button border */
   padding: 12px 24px;                 /* Add 12px top/bottom, 24px left/right spacing inside */
@@ -122,7 +122,7 @@ button:hover {
   margin-top: 20px;                   /* Add 20 pixels of space above this element */
   padding: 16px;                      /* Add 16 pixels of spacing inside the element */
   border: 1px solid #ccc;             /* Add a light gray border around the element */
-  background-color: #f8d382;          /* Set background color to very light gray */
+  background-color: #fbfbfb;          /* Set background color to very light gray */
   border-radius: 4px;                 /* Add slightly rounded corners */
   min-height: 20px;                   /* Set minimum height so the area is visible even when empty */
 }
@@ -132,9 +132,9 @@ button:hover {
   width: 100%;
   text-align: center;
   font-size: 1.5em;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'EB Garamond';
   font-weight: 700;
-  background-color: #f9f9f9;
+  background-color: #110505;
   border: none;
   padding: 1em;
   cursor: pointer;
@@ -146,7 +146,7 @@ button:hover {
 
 }
 .collapsible-section {
-  border: 1px solid #ccc;
+  border: 1px solid #ffffff;
   border-radius: 5px;
   margin: 20px 0;
 }
