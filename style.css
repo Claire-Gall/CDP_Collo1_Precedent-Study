@@ -13,36 +13,35 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 3rem;
-  border-bottom: 1px solid #eee;
-  font-weight: 300;
-  color: #555;
+  padding: 12px 24px;         /* Reduced from 24px 40px */
+  border-bottom: 1px solid #ccc;
+  font-size: 12px;            /* Reduced font size */
 }
 
+/* Left section */
 header .left {
-  font-weight: 700;
-  font-size: 1rem;
-  color: #222;
+  color: #aaa;
+  font-size: 12px;            /* Optional: Make text smaller */
 }
 
+/* Center section */
 header .center {
-  text-align: center;
-  flex-grow: 1;
-  font-family: 'EB Garamond', serif;
   font-weight: 400;
-  color: #111;
-  font-size: 1.25rem;
-  line-height: 1.4;
+  text-align: center;
+  font-size: 13px;            /* Reduced from default */
 }
 
 header .center span {
-  display: block;
-  font-size: 0.9rem;
-  font-weight: 300;
+  font-size: 11px;            /* Reduced from 12px */
   color: #888;
-  margin-top: 0.25rem;
 }
 
+header .right a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 12px;            /* Match overall scale */
+}
 .project-meta {
   margin-top: 0.5rem;
   font-size: 0.85rem;
@@ -59,8 +58,8 @@ main {
 
 .project-title {
   font-family: 'EB Garamond', serif;
-  font-size: 2.75rem;
-  font-weight: 700;
+  font-size: 2.7 rem;
+  font-weight: 600;
   margin-bottom: 0.5rem;
   color: #111;
 }
