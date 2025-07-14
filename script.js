@@ -25,12 +25,13 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // ----- Dropdown Toggle Logic -----
-    const toggles = document.querySelectorAll('.section-toggle');
-
-    toggles.forEach(toggle => {
-        toggle.addEventListener('click', function () {
-            const content = this.nextElementSibling;
+    document.querySelectorAll('.section-toggle').forEach(button => {
+        button.addEventListener('click', () => {
+            // Find the nearest .collapsible-section and its .section-content
+            const collapsible = button.closest('.collapsible-section');
+            const content = collapsible.querySelector('.section-content');
             content.classList.toggle('open');
         });
     });
-}); 
+
+}); // <== This was missing
