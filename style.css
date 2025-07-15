@@ -1,6 +1,6 @@
 /* Base styles */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Courier New', sans-serif;
   background-color: #fff;
   color: #333;
   margin: 0;
@@ -57,7 +57,7 @@ main {
 }
 
 .project-title {
-  font-family: 'EB Garamond', serif;
+  font-family: 'Courier New', serif;
   font-size: 5 rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
@@ -65,7 +65,7 @@ main {
 }
 
 .project-subtitle {
-  font-family: 'EB Garamond', serif;
+  font-family: 'Courier New', serif;
   font-style: italic;
   font-weight: 400;
   font-size: 1.25rem;
@@ -91,7 +91,7 @@ p {
 .section-toggle {
   background: none;
   border: none;
-  font-family: 'EB Garamond', serif;
+  font-family: 'Courier New', serif;
   font-weight: 700;
   font-size: 1.3rem;
   padding: 0;
@@ -120,7 +120,7 @@ p {
 
 /* Section titles inside content */
 .section-title {
-  font-family: 'EB Garamond', serif;
+  font-family: 'Courier New', serif;
   font-weight: 700;
   font-size: 1.1rem;
   margin-top: 2rem;
@@ -152,7 +152,7 @@ iframe {
   margin-top: 5rem;
   padding: 3rem 0;
   border-top: 1px solid #eee;
-  font-family: 'EB Garamond', serif;
+  font-family: 'Courier New', serif;
   font-style: italic;
   font-weight: 400;
   font-size: 1rem;
