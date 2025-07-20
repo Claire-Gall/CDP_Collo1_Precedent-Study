@@ -15,7 +15,7 @@ header {
   align-items: center;
   padding: 12px 24px;         /* Reduced from 24px 40px */
   border-bottom: 1px solid #ccc;
-  font-size: 12px;            /* Reduced font size */
+  font-size: 16px;            /* Reduced font size */
 }
 
 /* Left section */
@@ -58,7 +58,7 @@ main {
 
 .project-title {
   font-family: 'Courier New', serif;
-  font-size: 5 rem;
+  font-size: 16 rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
   color: #111;
@@ -175,4 +175,15 @@ iframe {
   .project-subtitle {
     font-size: 1rem;
   }
+.wide-image-container {
+  width: 95vw;
+  max-width: 1600px;
+  margin: 2rem auto;
+}
+
+.wide-image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 }
