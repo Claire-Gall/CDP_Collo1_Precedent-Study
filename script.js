@@ -33,5 +33,14 @@ document.addEventListener('DOMContentLoaded', function () {
             content.classList.toggle('open');
         });
     });
+    const list = document.getElementById("bulletList");
 
-}); // <== This was missing
+const items = ["Spatial systems mapping", "Form finding through creating different spatial vantage points using light, sensory technology and participant feedbck data", "Biorythms: to inform my work not to be involved in my work", "Geometric abstraction within interactive installation and informative visuals"];
+
+items.forEach(text => {
+const li = document.createElement("li");
+li.textContent = text;
+list.appendChild(li);
+});
+
+}); //
